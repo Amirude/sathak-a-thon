@@ -1,3 +1,19 @@
+const video = document.getElementById('introVideo');
+const container = document.getElementById('introVideoContainer');
+const content = document.getElementById('mainContent');
+
+// Show site when video is clicked
+container.addEventListener('click', () => {
+  video.pause();
+  container.style.display = 'none';
+  content.style.display = 'block';
+});
+
+// Or show site when video ends
+video.addEventListener('ended', () => {
+  container.style.display = 'none';
+  content.style.display = 'block';
+});
 // Set your event date here (YYYY-MM-DD HH:MM:SS)
     const targetDate = new Date("2025-05-01T00:00:00").getTime();
 
