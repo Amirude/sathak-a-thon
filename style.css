@@ -788,8 +788,8 @@ body {
   .register-button {
     display: inline-block;
     padding: 15px 25px;
-    background: rgb(20, 18, 162);
-    color: rgb(41, 167, 155);
+    background: rgb(18, 25, 162);
+    color: rgb(255, 255, 255);
     font-weight: 600;
     border-radius: 10px;
     text-decoration: none;
@@ -798,7 +798,8 @@ body {
   }
   
   .register-button:hover {
-    background: #673737;
+    background: #d2ff3e;
+    box-shadow: #e1fffd;
   }
   
   .footer {
